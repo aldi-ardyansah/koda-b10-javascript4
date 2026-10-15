@@ -5,7 +5,7 @@
 ### Flowchart
 
 ```mermaid
-flowchart LR
+flowchart TD
     A((start))
     B["data = schoolName, name, score"]
     C["min = score[0]"]
