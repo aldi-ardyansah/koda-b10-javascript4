@@ -13,12 +13,12 @@ flowchart LR
     E["sum = 0"]
     F["i = 0"]
     G{"i < score.length"}
-    H["currentScore = score[i]"]
-    I{"currentScore > max"}
-    J["max = currentScore"]
-    K{"currentScore < min"}
-    L["min = currentScore"]
-    M["sum += currentScore"]
+    H["calculateScore = score[i]"]
+    I{"calculateScore > max"}
+    J["max = calculateScore"]
+    K{"calculateScore < min"}
+    L["min = calculateScore"]
+    M["sum += calculateScore"]
     N["i++"]
     O["avg = sum / score.length"]
     P[/Print schoolName, min, max, avg/]

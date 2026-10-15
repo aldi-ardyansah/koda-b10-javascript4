@@ -9,14 +9,14 @@ let max = data.score[0];
 let sum = 0;
 
 for (let i = 0; i < data.score.length; i++) {
-    let currentScore = data.score[i];
-    if (currentScore > max) {
-        max = currentScore;
+    let calculateScore = data.score[i];
+    if (calculateScore > max) {
+        max = calculateScore;
     }
-    if (currentScore < min) {
-        min = currentScore;
+    if (calculateScore < min) {
+        min = calculateScore;
     }
-    sum += currentScore;
+    sum += calculateScore;
 }
 let avg = sum / data.score.length;
 
