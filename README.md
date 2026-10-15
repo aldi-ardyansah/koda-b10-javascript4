@@ -7,7 +7,7 @@
 ```mermaid
 flowchart TD
     A((start))
-    B["data = schoolName, name, score"]
+    B["data = {schoolName, name, score}"]
     C["min = score[0]"]
     D["max = score[0]"]
     E["sum = 0"]
