@@ -23,7 +23,6 @@ for (let i = 0; i < data.score.length; i++) {
 }
 let avg = sum / data.score.length;
 
-console.log("Data Sekolah:", data.schoolName);
 console.log("Nilai Terendah (Min):", min);
 console.log("Nilai Tertinggi (Max):", max);
 console.log("Rata-rata (Avg):", avg);
