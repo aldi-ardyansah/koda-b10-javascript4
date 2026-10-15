@@ -26,3 +26,4 @@ let avg = sum / data.score.length;
 console.log("Nilai Terendah (Min):", min);
 console.log("Nilai Tertinggi (Max):", max);
 console.log("Rata-rata (Avg):", avg);
+console.log(data.score.length);

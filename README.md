@@ -1,4 +1,4 @@
-# JavaScript4
+# JavaScript 4
 
 ## Program Hitung Nilai
 
