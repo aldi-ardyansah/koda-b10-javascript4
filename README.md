@@ -21,7 +21,7 @@ flowchart LR
     M["sum += calculateScore"]
     N["i++"]
     O["avg = sum / score.length"]
-    P[/Print schoolName, min, max, avg/]
+    P[/schoolName, min, max, avg/]
     Z(((stop)))
 
     A --> B

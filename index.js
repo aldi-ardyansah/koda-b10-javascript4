@@ -1,8 +1,11 @@
 const data = {
     schoolName: 'SMK Negeri 2 Kota Bekasi',
-    name: ['John', 'Daniel', 'Natasha'],
+    name: ['Diana', 'Bayu', 'Budi'],
     score: [89, 78, 56]
 };
+
+data.name = [...data.name, 'Feri', 'Sarah', 'Dini', 'Rima'];
+data.score = [...data.score, 95, 87, 76, 92];
 
 let min = data.score[0];
 let max = data.score[0];
