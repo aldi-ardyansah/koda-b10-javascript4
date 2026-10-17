@@ -1,7 +1,7 @@
 const data = {
     schoolName: 'SMK Negeri 2 Kota Bekasi',
     name: ['Diana', 'Bayu', 'Budi'],
-    score: [89, 78, 56]
+    score: [56, 78, 45]
 };
 
 data.name = [...data.name, 'Feri', 'Sarah', 'Dini', 'Rima'];
@@ -23,7 +23,6 @@ for (let i = 0; i < data.score.length; i++) {
 }
 let avg = sum / data.score.length;
 
-console.log("Nilai Terendah (Min):", min);
 console.log("Nilai Tertinggi (Max):", max);
+console.log("Nilai Terendah (Min):", min);
 console.log("Rata-rata (Avg):", avg);
-console.log(data.score.length);
