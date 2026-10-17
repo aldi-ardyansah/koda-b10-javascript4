@@ -21,8 +21,8 @@ flowchart TD
     M["sum += calculateScore"]
     N["i++"]
     O["avg = sum / score.length"]
-    P[/min/]
-    Q[/max/]
+    P[/max/]
+    Q[/min/]
     R[/avg/]
     Z(((stop)))
 
