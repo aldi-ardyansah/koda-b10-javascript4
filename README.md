@@ -1,6 +1,6 @@
 # JavaScript 4
 
-## Program Hitung Nilai
+## Program Hitung Nilai Tertinggi, Terendah dan Rata-Rata
 
 ### Flowchart
 

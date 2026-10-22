@@ -1,10 +1,10 @@
 const data = {
-    schoolName: 'SMK Negeri 2 Kota Bekasi',
-    name: ['Diana', 'Bayu', 'Budi'],
+    schoolName: "SMK Negeri 2 Kota Bekasi",
+    name: ["Diana", "Bayu", "Budi"],
     score: [56, 78, 45]
 };
 
-data.name = [...data.name, 'Feri', 'Sarah', 'Dini', 'Rima'];
+data.name = [...data.name, "Feri", "Sarah", "Dini", "Rima"];
 data.score = [...data.score, 95, 87, 76, 92];
 
 let min = data.score[0];
